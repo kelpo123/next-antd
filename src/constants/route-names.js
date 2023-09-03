@@ -1,0 +1,17 @@
+export const routeNames = {
+  dashboard: '/dashboard',
+  kendaraan: '/dashboard/kendaraan',
+  pengemudiMekanik: '/dashboard/pengemudi-mekanik',
+  peringatan: '/dashboard/peringatan',
+  servis: '/dashboard/servis',
+  masalahKendaraan: '/dashboard/masalah-kendaraan',
+  areaGeofencing: '/dashboard/konfigurasi/area-geofencing',
+  aturNotifikasiPeringatan: '/dashboard/konfigurasi/atur-notifikasi-peringatan',
+  mobileNotification: '/dashboard/mobile-notification',
+  userManagement: '/dashboard/user-management',
+  spesifikasiKendaraan: '/dashboard/master-data/spesifikasi-kendaraan',
+  pengemudi: '/dashboard/master-data/pengemudi',
+  mekanik: '/dashboard/master-data/mekanik',
+  forgotPassword: '/forgot-password',
+  login: '/',
+};
