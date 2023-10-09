@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import { message } from 'antd';
+// import { message } from 'antd';
 
 function ReactQueryProvider({ children }) {
   const [queryClient] = useState(
@@ -14,7 +14,7 @@ function ReactQueryProvider({ children }) {
           },
           mutations: {
             onError: (error) => {
-              message.error(error.response?.data?.data?.message || 'Something went wrong');
+              // message.error(error.response?.data?.data?.message || 'Something went wrong');
             },
           },
         },

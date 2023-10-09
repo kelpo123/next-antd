@@ -1,8 +1,8 @@
-import LoginComponent from '@/components/pages/login';
+import HomeComponent from '@/components/pages/home';
 import React from 'react';
 
-function LoginPage() {
-  return <LoginComponent />;
+function HomePage() {
+  return <HomeComponent />;
 }
 
-export default LoginPage;
+export default HomePage;

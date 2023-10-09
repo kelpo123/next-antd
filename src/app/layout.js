@@ -1,6 +1,8 @@
 import Footer from '@/components/shared/footer/footer';
 import ReactQueryProvider from '@/providers/react-query.provider';
-import '@/styles/index.less';
+import '@/styles/globals.css';
+import { Providers } from './provider';
+import Header from '@/components/shared/header/header';
 
 export const metadata = {
   title: 'Create Next App',
@@ -9,10 +11,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
+    <html lang='en' className='light'>
       <body>
         <ReactQueryProvider>
-          {children}
+          <Header />
+          <Providers>{children}</Providers>
           <Footer />
         </ReactQueryProvider>
       </body>
